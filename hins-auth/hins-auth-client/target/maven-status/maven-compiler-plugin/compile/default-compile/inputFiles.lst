@@ -1,0 +1,10 @@
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\runner\AuthClientRunner.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\configuration\HystrixRequestAttributeAutoConfig.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\configuration\UserAuthConfig.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\hystrix\RequestAttributeHystrixConcurrencyStrategy.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\feign\IAuthFeignApi.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\interceptor\OpenFeignInterceptor.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\configuration\FeignOkHttpConfig.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\annotation\IgnoreUserTokenValidate.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\interceptor\OkHttpTokenInterceptor.java
+D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\interceptor\UserAuthRestInterceptor.java

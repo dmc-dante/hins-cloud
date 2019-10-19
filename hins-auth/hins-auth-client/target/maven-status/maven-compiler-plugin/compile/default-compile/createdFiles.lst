@@ -1,0 +1,11 @@
+com\hins\cloud\client\hystrix\RequestAttributeHystrixConcurrencyStrategy.class
+com\hins\cloud\client\configuration\FeignOkHttpConfig.class
+com\hins\cloud\client\interceptor\OpenFeignInterceptor.class
+com\hins\cloud\client\interceptor\UserAuthRestInterceptor.class
+com\hins\cloud\client\configuration\UserAuthConfig.class
+com\hins\cloud\client\interceptor\OkHttpTokenInterceptor.class
+com\hins\cloud\client\feign\IAuthFeignApi.class
+com\hins\cloud\client\configuration\HystrixRequestAttributeAutoConfig.class
+com\hins\cloud\client\runner\AuthClientRunner.class
+com\hins\cloud\client\hystrix\RequestAttributeHystrixConcurrencyStrategy$WrappedCallable.class
+com\hins\cloud\client\annotation\IgnoreUserTokenValidate.class

@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51a188f3-4afc-4c8b-9402-4c1c668b0e15" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hins-control/target/" />
+    <ignored path="$PROJECT_DIR$/hins-demo/target/" />
+    <ignored path="$PROJECT_DIR$/hins-demo/demo-service-1/target/" />
+    <ignored path="$PROJECT_DIR$/hins-demo/demo-service-2/target/" />
+    <ignored path="$PROJECT_DIR$/hins-common/target/" />
+    <ignored path="$PROJECT_DIR$/hins-common/hins-common-base/target/" />
+    <ignored path="$PROJECT_DIR$/hins-common/hins-tkmybatis/target/" />
+    <ignored path="$PROJECT_DIR$/hins-orm/target/" />
+    <ignored path="$PROJECT_DIR$/hins-orm/hins-tkmybatis/target/" />
+    <ignored path="$PROJECT_DIR$/hins-auth/target/" />
+    <ignored path="$PROJECT_DIR$/hins-auth/hins-auth-common/target/" />
+    <ignored path="$PROJECT_DIR$/hins-auth/hisn-auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/hins-auth/hins-auth-client/target/" />
+    <ignored path="$PROJECT_DIR$/hins-gate/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hins-cloud" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>revision</find>
+      <find>ApplicationContextFactory</find>
+      <find>getWorkerId</find>
+      <find>workerId</find>
+      <find>long</find>
+      <find>datacenterId</find>
+      <find>generatePublicKey</find>
+      <find>getUniqueName</find>
+      <find>1024</find>
+      <find>RSAKeyPair</find>
+      <find>2048</find>
+      <find>spring-cloud-alibaba.version</find>
+      <find>returnObjectValue</find>
+      <find>RSAkeyConfiguration</find>
+      <find>@Nullable</find>
+      <find>maven-compiler-plugin.version</find>
+      <find>&lt;version&gt;${framework.version}&lt;/version&gt;</find>
+      <find>maven.compile.source</find>
+      <find>spring</find>
+      <find>refresh-token-expire</find>
+      <find>getUserTokenHeader</find>
+      <find>HystrixCommand</find>
+      <find />
+      <find>hystrix</find>
+      <find>connectTimeout</find>
+      <find>CURRENT_REQUEST_KEY</find>
+      <find>wrapCallable</find>
+      <find>userMapper</find>
+      <find>authServerHystrix</find>
+      <find>&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>SpringContextHolder</replace>
+      <replace>Long</replace>
+      <replace>dataCenterId</replace>
+      <replace>1024</replace>
+      <replace>2048</replace>
+      <replace>getId</replace>
+      <replace>&lt;version&gt;${framework.version}&lt;/version&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hins-auth/hisn-auth-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hins-auth/hisn-auth-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-2/pom.xml" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/feign/IAuthFeignApi.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/pom.xml" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-1/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/constant/BaseConst.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/interceptor/OpenFeignInterceptor.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hisn-auth-server/src/main/java/com/hins/cloud/auth/server/controller/AuthCommonController.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/interceptor/UserAuthRestInterceptor.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/runner/AuthClientRunner.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/interceptor/OkHttpTokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/constant/ApiResultConst.java" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud/demoservice1/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/dto/ApiResult.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/configuration/FeignOkHttpConfig.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/support/CurrentRequestHolder.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/hystrix/RequestAttributeHystrixConcurrencyStrategy.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/configuration/HystrixRequestAttributeAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/configuration/HystrixRequestAttributeAutoConfig.java" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-2/src/main/java/com/hins/cloud/demoservice2/TestController.java" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud/demoservice1/DemoServer2FeignApi.java" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud/demoservice1/TestController.java" />
+        <option value="$PROJECT_DIR$/hins-control/hins-nacos/使用说明.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-1/pom.xml" />
+        <option value="$PROJECT_DIR$/hins-gate/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hins-control/pom.xml" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/handler/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/config/AutoBaseConfig.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/config/AutoBaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/configuration/AutoBaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/base/util/StringUtils.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/EnableHinsBase.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/configuration/AutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/configuration/AutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/configuration/AutoConfigurationTkMybatis.java" />
+        <option value="$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/EnableTkMybatis.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hisn-auth-server/src/main/java/com/hins/cloud/auth/server/HinsAuthServerApplication.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/EnableAuthClient.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/configuration/AutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/client/configuration/AuthClientAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/configuration/AuthClientAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/EnableAuthClient.java" />
+        <option value="$PROJECT_DIR$/hins-gate/src/main/java/com/hins/cloud/gate/HinsGateApplication.java" />
+        <option value="$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/EnableHinsCommon.java" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud/demoservice1/DemoService1Application.java" />
+        <option value="$PROJECT_DIR$/hins-orm/hins-tkmybatis/说明.txt" />
+        <option value="$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/entity/AssistEntity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="JWTTests.testJwtExpire" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/开发软件/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
+    <option name="y" value="16" />
+    <option name="width" value="1291" />
+    <option name="height" value="695" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570515554930" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hins-auth/hins-auth-client/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspaceGitHub\hins-cloud\hins-orm" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hins.cloud.common.base" />
+      <recent name="com.hins.cloud.demoservice1" />
+      <recent name="com.hins.springcloud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hins.cloud.client.configuration" />
+      <recent name="com.hins.cloud.client" />
+      <recent name="com.hins.cloud.tkmybatis.configuration" />
+      <recent name="com.hins.cloud.tkmybatis" />
+      <recent name="com.hins.cloud.auth.server.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspaceGitHub\hins-cloud\hins-common\hins-common-base\src\main\java\com\hins\cloud\common\handler" />
+      <recent name="D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\configuration" />
+      <recent name="D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client\src\main\java\com\hins\cloud\client\interceptor" />
+      <recent name="D:\workspaceGitHub\hins-cloud\hins-demo\demo-service-2\src\main\resources" />
+      <recent name="D:\workspaceGitHub\hins-cloud\hins-gate\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoService2Application">
+    <configuration name="RsaKeyHelper (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hins.cloud.hinsauth.common.rsa.RsaKeyHelper" />
+      <module name="hins-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hins.cloud.hinsauth.common.rsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWTTests.testJwtEfficiency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hins-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hins.cloud.hinsauth.common.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hins.cloud.hinsauth.common.jwt" />
+      <option name="MAIN_CLASS_NAME" value="com.hins.cloud.hinsauth.common.jwt.JWTTests" />
+      <option name="METHOD_NAME" value="testJwtEfficiency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWTTests.testJwtExpire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hins-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hins.cloud.hinsauth.common.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hins.cloud.hinsauth.common.jwt" />
+      <option name="MAIN_CLASS_NAME" value="com.hins.cloud.hinsauth.common.jwt.JWTTests" />
+      <option name="METHOD_NAME" value="testJwtExpire" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoService1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-service-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hins.cloud.demoservice1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hins.cloud.demoservice1.DemoService1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoService1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-service-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hins.cloud.demoservice1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hins.cloud.demoservice1.DemoService1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoService2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-service-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hins.cloud.demoservice2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hins.cloud.demoservice2.DemoService2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HinsAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hisn-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hins.cloud.auth.server.HinsAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HinsGateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hins-gate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hins.cloud.gate.HinsGateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RsaKeyHelper (1)" />
+      <item itemvalue="JUnit.JWTTests.testJwtEfficiency" />
+      <item itemvalue="JUnit.JWTTests.testJwtExpire" />
+      <item itemvalue="Spring Boot.HinsAuthServerApplication" />
+      <item itemvalue="Spring Boot.HinsGateApplication" />
+      <item itemvalue="Spring Boot.DemoService1Application" />
+      <item itemvalue="Spring Boot.DemoService2Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DemoService1Application" />
+        <item itemvalue="Spring Boot.DemoService2Application" />
+        <item itemvalue="Application.RsaKeyHelper (1)" />
+        <item itemvalue="JUnit.JWTTests.testJwtEfficiency" />
+        <item itemvalue="JUnit.JWTTests.testJwtExpire" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\duke\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-common" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth\hins-auth-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth\hisn-auth-server" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-auth\hisn-auth-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-common" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-common\hins-common-base" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-common\hins-common-base" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-control" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-control" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-demo" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-demo" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-demo\demo-service-1" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-demo\demo-service-1" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-demo\demo-service-2" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-demo\demo-service-2" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-gate" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-gate" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-orm" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-orm" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud\hins-orm\hins-tkmybatis" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud\hins-orm\hins-tkmybatis" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspaceGitHub\hins-cloud" />
+          <option name="myCopyRoot" value="D:\workspaceGitHub\hins-cloud" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a188f3-4afc-4c8b-9402-4c1c668b0e15" name="Default Changelist" comment="" />
+      <created>1565078348775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565078348775</updated>
+      <workItem from="1565078350698" duration="4784000" />
+      <workItem from="1565083221558" duration="2186000" />
+      <workItem from="1565148170456" duration="17877000" />
+      <workItem from="1565224786748" duration="18457000" />
+      <workItem from="1565316175409" duration="2695000" />
+      <workItem from="1565340265510" duration="1628000" />
+      <workItem from="1565342003396" duration="2504000" />
+      <workItem from="1565570928444" duration="22435000" />
+      <workItem from="1565659533297" duration="18847000" />
+      <workItem from="1565763000553" duration="14916000" />
+      <workItem from="1565829469503" duration="23650000" />
+      <workItem from="1565915693348" duration="19402000" />
+      <workItem from="1566175561897" duration="23861000" />
+      <workItem from="1566262381330" duration="11577000" />
+      <workItem from="1566276955068" duration="14233000" />
+      <workItem from="1566348552707" duration="9964000" />
+      <workItem from="1566434502227" duration="17976000" />
+      <workItem from="1566521402861" duration="5807000" />
+      <workItem from="1566780699401" duration="1529000" />
+      <workItem from="1566803712595" duration="1156000" />
+      <workItem from="1566805231479" duration="4459000" />
+      <workItem from="1566866314098" duration="2043000" />
+      <workItem from="1566952980029" duration="747000" />
+      <workItem from="1566953838684" duration="222000" />
+      <workItem from="1566954130022" duration="1712000" />
+      <workItem from="1567385619510" duration="5295000" />
+      <workItem from="1567474435335" duration="2720000" />
+      <workItem from="1570515199870" duration="677000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JWTTests_testJwtExpire - 2019.08.12 at 11h 11m 52s.xml">
+      <configuration name="JWTTests.testJwtExpire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtExpire - 2019.08.12 at 11h 17m 23s.xml">
+      <configuration name="JWTTests.testJwtExpire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtEfficiency - 2019.08.12 at 11h 17m 28s.xml">
+      <configuration name="JWTTests.testJwtEfficiency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtExpire - 2019.08.12 at 11h 18m 30s.xml">
+      <configuration name="JWTTests.testJwtExpire" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtEfficiency - 2019.08.12 at 11h 18m 35s.xml">
+      <configuration name="JWTTests.testJwtEfficiency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtEfficiency - 2019.08.12 at 11h 19m 27s.xml">
+      <configuration name="JWTTests.testJwtEfficiency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtEfficiency - 2019.08.12 at 11h 20m 07s.xml">
+      <configuration name="JWTTests.testJwtEfficiency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtEfficiency - 2019.08.12 at 11h 22m 04s.xml">
+      <configuration name="JWTTests.testJwtEfficiency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtEfficiency - 2019.08.12 at 11h 22m 32s.xml">
+      <configuration name="JWTTests.testJwtEfficiency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JWTTests_testJwtEfficiency - 2019.08.12 at 11h 23m 40s.xml">
+      <configuration name="JWTTests.testJwtEfficiency" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="253359000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="42" y="16" width="1291" height="695" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.25020307" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5027174" side_tool="true" weight="0.2193646" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.50342464" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959382" weight="0.43835616" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.38869864" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.255137" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.23364486" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.40582192" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.31335616" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25426483" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hins-auth/hisn-auth-server/src/main/java/com/hins/cloud/auth/server/interceptor/UserAuthRestInterceptor.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hins-auth/hisn-auth-server/src/main/java/com/hins/cloud/auth/server/controller/AuthCommonController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-core/2.1.0.RELEASE/spring-cloud-sleuth-core-2.1.0.RELEASE.jar!/org/springframework/cloud/sleuth/instrument/hystrix/SleuthHystrixConcurrencyStrategy.class</url>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hins-demo/demo-service-2/src/main/java/com/hins/cloud/demoservice2/TestController.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>CurrentRequestHolder.getAcToken()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CurrentRequestHolder.getRequest()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-common/src/main/java/com/hins/cloud/hinsauth/common/rsa/RSAKeyPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/configuration/FeignOkHttpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/configuration/HystrixRequestAttributeAutoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/configuration/UserAuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/feign/IAuthFeignApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/configuration/AuthClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/EnableAuthClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/hystrix/RequestAttributeHystrixConcurrencyStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-gate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-gate/src/main/java/com/hins/cloud/gate/HinsGateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.0.RELEASE/spring-cloud-openfeign-core-2.1.0.RELEASE.jar!/org/springframework/cloud/openfeign/FeignAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.0.RELEASE/spring-cloud-openfeign-core-2.1.0.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/EnableHinsCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/configuration/AutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/support/SpringContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/org/apache/catalina/core/ApplicationHttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/EnableTkMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-common/hins-common-base/src/main/java/com/hins/cloud/common/support/CurrentRequestHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud/demoservice1/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud/demoservice1/entity/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-orm/hins-tkmybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-orm/hins-tkmybatis/说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/select/SelectOneMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/BaseSelectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/provider/base/BaseDeleteProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/sqlserver/InsertSelectiveMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/sqlserver/InsertMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/example/SelectByExampleMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/example/DeleteByExampleMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/rowbounds/SelectByConditionRowBoundsMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/rowbounds/SelectByExampleRowBoundsMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/provider/base/BaseUpdateProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5.jar!/tk/mybatis/mapper/mapperhelper/SqlHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6562">
+          <caret line="406" column="24" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-orm/hins-tkmybatis/src/main/java/com/hins/cloud/tkmybatis/entity/AssistEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-demo/demo-service-1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-demo/demo-service-1/src/main/java/com/hins/cloud/demoservice1/DemoService1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/annotation/IgnoreUserTokenValidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/interceptor/OkHttpTokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/interceptor/OpenFeignInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/interceptor/UserAuthRestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-auth/hins-auth-client/src/main/java/com/hins/cloud/auth/client/runner/AuthClientRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="135" column="10" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hins-demo/demo-service-1/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5.jar!/tk/mybatis/mapper/entity/EntityColumn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="212" column="34" selection-start-line="212" selection-start-column="34" selection-end-line="212" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="157" column="56" selection-start-line="157" selection-start-column="56" selection-end-line="157" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (hins-common-base)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hins-common-base</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

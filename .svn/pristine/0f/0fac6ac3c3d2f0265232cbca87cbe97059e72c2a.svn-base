@@ -1,0 +1,102 @@
+#snow-flake 分布式id生成器配置，
+snow-flake:
+  data-center-id: 1 #数据中心编号，0-31整数
+  worker-id: 1 #服务器编号，0-31整数
+spring:
+  datasource:
+    name: test_datasource
+    type: com.alibaba.druid.pool.DruidDataSource
+    #druid相关配置,说明请参考Druid Wiki, 浏览器打开监控http://hostname:port/druid/index.html
+    druid:
+      #监控统计拦截的filters
+      filters: stat,wall,log4j
+      driver-class-name: com.mysql.cj.jdbc.Driver #com.mysql.jdbc.Driver
+      #基本属性
+      url: jdbc:mysql://192.168.2.100:3306/hins_cloud_test?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: root
+      password: 123456
+      #配置初始化大小/最小/最大
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      #获取连接等待超时时间
+      max-wait: 60000
+      #间隔多久进行一次检测，检测需要关闭的空闲连接
+      time-between-eviction-runs-millis: 60000
+      #一个连接在池中最小生存的时间
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: 20
+      stat-view-servlet:
+        login-username: admin
+        login-password: 123456
+        url-pattern: /druid/*
+        reset-enable: false
+        enabled: true
+      web-stat-filter:
+        enabled: true
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.flv,*.mp4,*.swf,*.ico,/druid/*"
+
+
+feign:
+  compression:
+    response:
+      enabled: true
+    request:
+      enabled: true
+  hystrix:
+    enabled: true #开启Feign熔断，默认是关闭
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+
+#一般情况下 都是 ribbon 的超时时间（<）hystrix的超时时间（因为涉及到ribbon的重试机制）
+#重试次数实测 MaxAutoRetries +  MaxAutoRetriesNextServer + (MaxAutoRetries * MaxAutoRetriesNextServer  )
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
+  MaxAutoRetries: 0 #同一台实例最大重试次数,不包括首次调用
+  MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+  OkToRetryOnAllOperations: false #是否所有操作都重试, 默认情况下,GET方式请求无论是连接异常还是读取异常,都会进行重试
+  #非GET方式请求,只有连接异常时,才会进行重试
+
+#因为Feign开启hystrix熔断器后，因为熔断器默认的隔离策略是thread，也就是线程隔离，实际上接收到的对象和这个在发送给B不是一个线程
+#因此会拿不到请求Request的信息
+#改为信号量的隔离模式，但是不推荐， 因为thread是默认的，而且要命的是信号量模式，熔断器不生效，比如设置了熔断时间
+#hystrix.command.default.execution.isolation.strategy=SEMAPHORE
+#对于Spring Boot 2+ / Spring Cloud Finchley + spring security，如果您只需要安全上下文，则可以设置以下属性
+#hystrix.shareSecurityContext=true
+#第三种就是自定义策略
+#配置属性文档地址---》 https://github.com/Netflix/Hystrix/wiki/Configuration
+hystrix:
+  #  share-request: false #开启自定义策略传递 request 默认开启 com.hins.cloud.client.configuration.HystrixRequestAttributeAutoConfig
+  threadpool:
+    default:
+      coreSize: 1 ##并发执行的最大线程数，默认10
+      maxQueueSize: 1 ##BlockingQueue的最大队列数，不可动态变更（变更无效）
+      queueSizeRejectionThreshold: 1 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝，存在原因：可动态变更
+  command:
+    default:
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000 #设置统计滚动窗口的长度，以毫秒为单位 默认10000。用于监控和熔断器
+      circuitBreaker:
+        requestVolumeThreshold: 2 #当在配置时间窗口内达到此数量的失败后，进行短路。默认20个
+        sleepWindowInMilliseconds: 20000 #短路多久以后开始尝试是否恢复，默认5000 (ms)
+        errorThresholdPercentage: 50 #失败率达到多少百分比后熔断，默认50
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000 #设置全局请求超时中断时间，默认是1000，
+            #注意：假如一个请求同时适配全局和局部超时时间，那么取最小的那个时间超时
+#    "***FeignClient#***method()": #格式是   类名#方法名()
+#          execution:
+#            isolation:
+#              thread:
+#                timeoutInMilliseconds: 10000

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo-server-1
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.2.100:8848
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yaml
+  profiles:
+    active: dev
+server:
+  port: 8001

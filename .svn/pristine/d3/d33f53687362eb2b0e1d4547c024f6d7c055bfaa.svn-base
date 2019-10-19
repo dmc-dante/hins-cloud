@@ -1,0 +1,81 @@
+#授权配置
+jwt:
+  user-token:                     #生成系统用户访问的token配置
+    token-header: Authorization   #设置访问头key
+    access-token-expire: 7200     #access_token过期时间，单位：秒
+    refresh-token-expire: 1296000 #refresh token过期时间15日，单位：秒
+    rsa-public-key: | #rsa加密公钥
+      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl/ucpIwBw4ztIx4n6LcV+ObqfxymEsF3
+      FihSgU8Vfm19xXPpC1343TKEMD1eYvh14+ITiVgwkGxU+gHbt06Xc7AnFKMFrjsvdPUeQX526NVI
+      BXXG7XffjjYX375QSUcvbVTon+ROPq8Sv9mh0GAdi7Dpak5PgDsBbmRWiZzh4yVWTp6Phg+nbu3I
+      AvcGfCtz8QF/AoMCjKXb/GIa3rcSiLgAmGhG+STK22CmEQP2y6sKgck6qcFekQzdTTZUlXW+eWaD
+      LHT4FGx/aUnh3MPSsNNuq9E2O3PvWAD31e+XeLADw3sqVY09ggW4P8I8PPKSxAE6cbVbOtNVsIpI
+      JhkvpwIDAQAB
+    rsa-private-key: | #rsa加密私钥
+      MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCX+5ykjAHDjO0jHifotxX45up/
+      HKYSwXcWKFKBTxV+bX3Fc+kLXfjdMoQwPV5i+HXj4hOJWDCQbFT6Adu3TpdzsCcUowWuOy909R5B
+      fnbo1UgFdcbtd9+ONhffvlBJRy9tVOif5E4+rxK/2aHQYB2LsOlqTk+AOwFuZFaJnOHjJVZOno+G
+      D6du7cgC9wZ8K3PxAX8CgwKMpdv8YhretxKIuACYaEb5JMrbYKYRA/bLqwqByTqpwV6RDN1NNlSV
+      db55ZoMsdPgUbH9pSeHcw9Kw026r0TY7c+9YAPfV75d4sAPDeypVjT2CBbg/wjw88pLEATpxtVs6
+      01WwikgmGS+nAgMBAAECggEAFRd3AqLnb8Lz+eaqdTJLW1J4gpFwPrQYmbuYz5cxDW2Wgbt3QPuW
+      mOP00lkB60w92BU8ztetTa2rEVMGsea3P/fXRJbnJ+nQyTNnMoGhcOiAaTmSFMyI+sxo/cUEkVbO
+      ryaUbfQaI7raKEPEoA1mrEct7XHWuJ33seE83TYnZwVEw91j38WYJABovYZyLvxgACbI9oGhR1jP
+      nf+NHjwQ2eBAVqpNdXA6HzKl0jYbyuKYXIX8SLjxBkwGwaTAneXrKamA9FIgA8nDD8bGkkk8WRro
+      ysI7WNBxuCF4n0LABP5y6E+iHVRwRtd0KFIO8fL9vYPQYtA/NXjec/MxwHg8WQKBgQDts/TbM/BE
+      sxrNsY19xtB+Rg2nH1kxdOoJDhz8ZbhANjNW4su7UzntsjBkg/ONQHZZcXikBIIwFDPSCRew42wo
+      E4AUM55EILu5LKxRFrS7s6BQkgzlvgKy+ijow9A5sY/RCqVI92OcxNQfBqGdQj81ewCPXYJVmGJe
+      /p+qcNLiuwKBgQCjroCd2sr5avD9eO0EtqJl4FqiV8oJlcZhVV5yx6l5+DDHIC/6TXWO5juDs4Pt
+      x7YwywGcyjKpxCv27MOhvCfJsb0KIAR9PGbASFRQ/XVUyn/EAqg/oOK9LkUGLwwpdYqndKzxMAqt
+      SOy41sZJ6vfT09Z6bDK9aphCapnep0kmBQKBgQDb0IfFUfGFxk8qGmBrCLjznNqxSpcT2jc26ns5
+      mONbVgQB/DdE4sD2I8sGmNNYM11+dyWGH7k4tuX4/HmRFa6GHQpbJCTegZq3si0jy6iUz5aYC4er
+      yRv74MSGA9aCE8aYHI0evc+7QHWcv2gi4glL7pRk/6cwenu1tyd12WHbUwKBgHxs27KjrqY5aCaW
+      9T4fA4aELQG50IjGxT4aYijIpIlmZNYKHs6ccWAGnnk4TnLD3ThsKbahci/hQzZ6tyBMYsaNCVIY
+      ErGM5+MFWKsUcUvaf5NmHbX4vEPpV2ki/JDLnHI9XHYf+g3OIL1F7wgjyO7K2wDHHS8mR8Y9OOir
+      rAxtAoGBANVM59/sDPZp51/U48Yyr10i3yL0hyW1uEabv/nMY7GooXxisblfdqpv/52IqKgIQ0HY
+      86imvqGxg+s/6b3RahM/uKCmXc3Ls5wCsYbRjHru86oa8mhETK8D2BKN8Do0yTJv4ScVB+yXDuTT
+      4LrwLvdODhcl3AC9MwzzCUngnoX6
+
+feign:
+  hystrix:
+    enabled: true #开启Feign熔断，默认是关闭
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  compression:
+    request:
+      enabled: true
+      mime-types: text/xml,application/xml,application/json
+      min-request-size: 2048
+    response:
+      enabled: true
+
+#ribbon:
+#  eureka:
+#    enabled: true
+#  ReadTimeout: 60000
+#  ConnectTimeout: 60000
+#  MaxAutoRetries: 0
+#  MaxAutoRetriesNextServer: 1
+#  OkToRetryOnAllOperations: false
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 1000 ##并发执行的最大线程数，默认10
+      maxQueueSize: 1000 ##BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 500 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+
+#设置Jackson返回的时间格式
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+debug: true

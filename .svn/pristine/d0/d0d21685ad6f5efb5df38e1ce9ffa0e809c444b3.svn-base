@@ -1,0 +1,4 @@
+com\hins\cloud\demoservice1\entity\TestUser.class
+com\hins\cloud\demoservice1\mapper\TestUserMapper.class
+com\hins\cloud\demoservice1\TestController.class
+com\hins\cloud\demoservice1\DemoService1Application.class

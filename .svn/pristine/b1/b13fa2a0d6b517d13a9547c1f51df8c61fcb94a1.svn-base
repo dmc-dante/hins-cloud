@@ -1,0 +1,57 @@
+spring:
+  cloud:
+    # gateway文档 https://cloud.spring.io/spring-cloud-gateway/reference/html
+    #中文文档链接：http://note.youdao.com/noteshare?id=6ebc407c79c33fffd8258ef7f39edd7c&sub=wcp1565946534128273
+    gateway:
+      #      配置为默认过滤器，这样子所有的路由都会关联此过滤器，但是非必要时建议不要这样做
+      default-filters:
+        - name: Hystrix
+          args:
+            name: HystrixCommand
+      #            fallbackUri: forward:/fallback
+      routes:
+        - id: auth-server
+          uri: lb://auth-server
+          predicates:
+            - Path=/api/auth/**
+          filters:
+            - StripPrefix=2   #表示在转发时去掉多少级前缀，这里表示去掉/api/auth
+            - name: Hystrix
+              args:
+                name: authServerHystrix #局部hystrix定义，name是自定义，
+                #  hystrix.command.这里是自定义的name.execution.isolation.thread.timeoutInMilliseconds
+                #https://github.com/Netflix/Hystrix/wiki/Configuration
+        - id: demo-server-1
+          uri: lb://demo-server-1
+          predicates:
+            - Path=/api/demo1/**
+          filters:
+            - StripPrefix=2   #表示在转发时去掉多少级前缀，这里表示去掉/api/auth
+        - id: demo-server-2
+          uri: lb://demo-server-2
+          predicates:
+            - Path=/api/demo2/**
+          filters:
+            - StripPrefix=2   #表示在转发时去掉多少级前缀，这里表示去掉/api/auth
+hystrix:
+  threadpool:
+    default:
+      coreSize: 10 ##并发执行的最大线程数，默认10
+      maxQueueSize: 10 ##BlockingQueue的最大队列数，不可动态变更（变更无效）
+      queueSizeRejectionThreshold: 10 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝，存在原因：可动态变更
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000 #设置全局请求超时中断时间，默认是1000，
+            #注意：假如一个请求同时适配全局和局部超时时间，那么取最小的那个时间超时
+    authServerHystrix:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000 #设置authServerHystrix请求超时中断时间
+
+server:
+  compression:
+    enabled: true

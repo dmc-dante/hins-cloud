@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hins-demo/demo-service-1/demo-service-1.iml" filepath="$PROJECT_DIR$/hins-demo/demo-service-1/demo-service-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-demo/demo-service-2/demo-service-2.iml" filepath="$PROJECT_DIR$/hins-demo/demo-service-2/demo-service-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-auth/hins-auth.iml" filepath="$PROJECT_DIR$/hins-auth/hins-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-auth/hins-auth-client/hins-auth-client.iml" filepath="$PROJECT_DIR$/hins-auth/hins-auth-client/hins-auth-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-auth/hins-auth-common/hins-auth-common.iml" filepath="$PROJECT_DIR$/hins-auth/hins-auth-common/hins-auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-cloud.iml" filepath="$PROJECT_DIR$/hins-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-common/hins-common.iml" filepath="$PROJECT_DIR$/hins-common/hins-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-common/hins-common-base/hins-common-base.iml" filepath="$PROJECT_DIR$/hins-common/hins-common-base/hins-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-control/hins-control.iml" filepath="$PROJECT_DIR$/hins-control/hins-control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-demo/hins-demo.iml" filepath="$PROJECT_DIR$/hins-demo/hins-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-gate/hins-gate.iml" filepath="$PROJECT_DIR$/hins-gate/hins-gate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-orm/hins-orm.iml" filepath="$PROJECT_DIR$/hins-orm/hins-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-orm/hins-tkmybatis/hins-tkmybatis.iml" filepath="$PROJECT_DIR$/hins-orm/hins-tkmybatis/hins-tkmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hins-auth/hisn-auth-server/hisn-auth-server.iml" filepath="$PROJECT_DIR$/hins-auth/hisn-auth-server/hisn-auth-server.iml" />
+    </modules>
+  </component>
+</project>
